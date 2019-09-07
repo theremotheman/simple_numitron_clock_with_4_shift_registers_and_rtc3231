@@ -12,7 +12,7 @@ You can use ds1307 or ds3231 - ds1307 lack temperature monitoring
 
 # Behaviour
 
-After powering on (and setting correct time/date on your RTC) time/date will be pulled from rtc using DS1307RTC library, then after parsin it should be displayed on numitrons (using byte array) for 60 sec. After that - day and month will be displayed(also from rtc) for 1.5 sec and then year(from rtc) and temperature(if ds3231 is used). Cycle will end and time will be displayed again. Everything nicley done using fade-in fade-out. It is very simple concept on wihich my next project will be based.
+After powering on (and setting correct time/date on your RTC) time/date will be pulled from rtc using DS1307RTC library, then after parsing it should be displayed on numitrons (using byte array) for 60 sec. After that - day and month will be displayed(also from rtc) for 1.5 sec and then the year(from rtc) and temperature(if ds3231 is used). The cycle will end and time will be displayed again. Everything is nicely done using fade-in fade-out. It is a very simple concept on which my next project will be based.
 
 # A good read before recreating this project:
 
@@ -24,7 +24,7 @@ Numitron tutorial with informative comments on HackaDay: https://hackaday.com/20
 
 Very helpful documentation on iv-9, can't express my gratefulness - I would be helpless without this good man site: http://www.tube-tester.com/sites/nixie/data/IV-9/iv-9.htm
 
-In depth about ds3231 RTC clock: https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/
+In-depth about ds3231 RTC clock: https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/
 
 Dropping Resistor calculator: http://www.gtsparkplugs.com/Dropping_Resistor_Calc.html
 
