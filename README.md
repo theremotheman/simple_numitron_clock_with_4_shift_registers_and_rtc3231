@@ -1,5 +1,7 @@
 # Simple numitron iv-9 desk clock using 4 shift registers, Arduino Uno(or equivalent) and ds3231 RTC clock
 
+![](Photo/2019-09-07%2017.02.53.jpg)
+
 According to documentation, the first iv-9 leg is common, second is indication dot. You need to connect common(first) to GND then every single leg to outputs of your shift register(one by one).
 
 Use this tutorial for connecting shift registers to Arduino: https://www.arduino.cc/en/tutorial/ShiftOut and remember to use caps for the nice flicker-less experience.
